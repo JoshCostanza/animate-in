@@ -6,6 +6,8 @@ This plug-in only animates elements in that are not already in view. As the user
 
 ### Requirements:
 - jQuery 1.8.+
+- animate-in.js
+- animate-in.css
 
 ### How to Use
 - Add class "animate-in" to any html element. 
