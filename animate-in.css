@@ -30,7 +30,7 @@
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-.animate-in.animate-pop-in.waiting, .animate-in.animate-pop-in:hover {
+.animate-in.animate-pop-in.waiting, a.animate-in.animate-pop-in:hover {
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
