@@ -2,7 +2,7 @@ $(document).ready(function() {
   var windowElement = $(window);
   var windowHeight = windowElement.height(),
     viewRangeTop = windowHeight * .2,
-    viewRangeBottom = windowHeight * .8;
+    viewRangeBottom = windowHeight * .95;
 
   var elementCount = {};
 
