@@ -2,7 +2,7 @@ $(document).ready(function() {
   var windowElement = $(window);
   var windowHeight = windowElement.height(),
     viewRangeTop = windowHeight * .2,
-    viewRangeBottom = windowHeight * .95;
+    viewRangeBottom = windowHeight * .8;
 
   var elementCount = {};
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
       var elementTop = element.offset().top - windowElement.scrollTop();
 
       // Check if this element is view range
-      if (elementTop > viewRangeBottom && elementTop > windowHeight + windowElement.scrollTop()) {
+      if (elementTop > viewRangeBottom && elementTop > windowHeight + windowElement.scrollTop() && elementTop < $(document).height() - windowHeight - viewRangeBottom) {
         element.addClass("waiting");
 
         // Track ScrollTops and Set Delay on Elements with Same ScrollTop
@@ -43,7 +43,7 @@ $(document).ready(function() {
 
       // Check if this element is view range
       if (elementTop < viewRangeBottom && (elementTop + element.height()) > viewRangeTop) {
-        element.removeClass("waiting")
+        element.removeClass("waiting");
         setTimeout(function() {
           element.css({
             '-moz-transition-delay': '0s',
