@@ -1,9 +1,6 @@
 # animate-in
 A super lightweight, responsive friendly JS/CSS plugin to animate in elements on scroll. 
 
-### Demo
-<a href="http://jcostanza4.github.io/animate-in/">Basic HTML Demo</a>
-
 ### Notes About Plug-in
 This plug-in only animates elements in that are not already in view. As the user scrolls, when the element is within the viewport range, additional animate-in classes are added to handle the animation styles. JavaScript handles delays for additional elements on the screen.
 
