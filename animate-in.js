@@ -13,7 +13,7 @@ $(document).ready(function() {
       var elementTop = element.offset().top - windowElement.scrollTop();
 
       // Check if this element is view range
-      if (elementTop > viewRangeBottom && elementTop > windowHeight + windowElement.scrollTop() && elementTop < $(document).height() - windowHeight - viewRangeBottom) {
+      if (elementTop > viewRangeBottom && elementTop > windowHeight + windowElement.scrollTop() && elementTop < $(document).height() - (windowHeight - viewRangeBottom) ) {
         element.addClass("waiting");
 
         // Track ScrollTops and Set Delay on Elements with Same ScrollTop
