@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+.overflow-hidden{
+  overflow:hidden;
+}
 .animate-in.set-transition {
   transition: margin 1s ease-in-out, opacity 1s ease-in-out;
   -moz-transition: margin 1s ease-in-out, opacity 1s ease-in-out;
