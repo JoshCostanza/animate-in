@@ -56,8 +56,23 @@
       margin:50px 0;
       display:block;
     }
-    .spacer .container{
+    .box{
+      display:block;
+      padding:25px;
+      border-radius:5px;
+      background-color:#CCC;
       color:#666666;
+      text-align:center;
+    }
+    .box.red{
+      color:#FFFFFF;
+      background-color:#660000;
+      border:5px solid #DD0000;
+    }
+    .box.green{
+      color:#FFFFFF;
+      background-color:#006600;
+      border:5px solid #00DD00;
     }
   </style>
 </head>
@@ -90,24 +105,22 @@
         <a href="#top" class="animate-in animate-pop-in">Pop In</a>
         <a href="#top" class="animate-in animate-from-right">Animate From Right</a>
         <a href="#top" class="animate-in animate-from-left">Animate From Left</a>
-        <div class="container animate-in animate-pop-in">
+        <div class="box animate-in animate-pop-in">
           <strong>Pop in Content Blocks</strong>
         </div>
         
-        <div class="container animate-in animate-from-left">
+        <div class="box red animate-in animate-from-left">
           <strong>Animate in Content Blocks from Left</strong>
         </div>
         
-        <div class="container animate-in animate-from-right">
+        <div class="box green animate-in animate-from-right">
           <strong>Animate in Content Blocks from Right</strong>
         </div>
         
-        <div href="#top" class="animate-in animate-pop-in">Images<br>
-          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="300" height="200" src="http://placehold.it/300x200?text=Animate Images!">
-          <br>
-          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="300" height="200" src="http://placehold.it/300x200?text=Animate Images!">
-          <br>
-          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="300" height="200" src="http://placehold.it/300x200?text=Animate Images!">
+        <div href="#top" class="animate-in animate-pop-in">Images
+          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="250" height="200" src="http://placehold.it/250x200?text=Animate+Images!">
+          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="250" height="200" src="http://placehold.it/250x200?text=Image+2">
+          <img class="animate-in animate-pop-in" alt="Animates a Pop In Effect" width="250" height="200" src="http://placehold.it/250x200?text=Image+3">
         </div>
       </div>
     </div>
