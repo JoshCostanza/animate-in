@@ -15,6 +15,7 @@ This plug-in only animates elements in that are not already in view. As the user
 ### How to Use
 - Add class "animate-in" to any html element. 
 - Add additional classes to set animation direction. Examples "animate-from-left", "animate-from-right", "animate-pop-in". Default style is fade in when no additional classes are added.
+- Optional: Use class "overflow-hidden" on a parent container if you are getting side scrolling issues.  
 
 ### Example of Markup on Various Elements
 ```
